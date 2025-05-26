@@ -1,0 +1,6 @@
+{
+  "name": "Gestion d'Événements Pro",
+  "description": "Une application web complète pour la gestion d'événements, incluant l'inscription, la création, la validation, et les rappels, avec des rôles distincts pour les participants, organisateurs, et administrateurs.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
