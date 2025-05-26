@@ -1,6 +1,15 @@
-version: '3.8'
+#version: '3.8'
 services:
-  app:
-    build: .
+  api:
+    build: ./backend
+    ports:
+      - "4000:4000"
+
+  web:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
     ports:
       - "80:80"
+    depends_on:
+      - api
